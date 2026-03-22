@@ -1,4 +1,4 @@
-# Project 4 — Kubernetes on AWS EKS
+# Kubernetes on AWS EKS
 
 ## Overview
 Deployed a Dockerized web app on AWS Elastic Kubernetes Service (EKS)
@@ -99,5 +99,3 @@ eksctl delete cluster --name my-webapp-cluster --region us-east-2
 | kubectl delete pod <name> | Test self-healing |
 | kubectl describe pod <name> | Debug issues |
 
-## Next Project
-**Project 5 — Monitoring with Prometheus + Grafana**
